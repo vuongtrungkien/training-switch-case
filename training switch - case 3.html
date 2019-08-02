@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>training switch - case</title>
+</head>
+<body>
+    <script>
+        let value = Number(prompt("Type a number",0));
+        let realvalue = (value > 0) ? "positive" : "false";
+            realvalue = (value < 0) ? "negative" : "false";
+
+
+
+        switch (realvalue) {
+
+            case "positive" :
+                alert(1);
+            break;
+            case "negative" :
+                alert(-1);
+            break;
+            default :
+                alert(0);
+        }
+
+    </script>
+</body>
+</html>
